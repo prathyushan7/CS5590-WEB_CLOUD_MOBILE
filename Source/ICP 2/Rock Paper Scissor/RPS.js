@@ -1,4 +1,4 @@
-var myChoice = prompt("Do you choose rock, paper or scissors?");
+var myChoice = prompt("Do you choose rock, paper or scissors?");// here it displays choices to choose //
 var sysChoice = Math.random();
 
 
@@ -11,7 +11,7 @@ else {
     sysChoice = "scissors"
 }
 var result = function (comp, my) {
-    if (comp == my) {
+    if (comp == my)// comparission {
         return "its a tie!"
 
     } else if (comp == "rock" && my == "paper" || comp == "paper" && my == "scissor" || comp == "scissor" && my == "rock") {
