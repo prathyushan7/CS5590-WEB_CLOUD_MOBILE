@@ -1,4 +1,4 @@
-body {background-color: cyan;
+body {
   font-family: Helvetica, Arial, sans-serif;
   border-top: 5px solid #4c4066;
   margin: 0px auto;
@@ -9,7 +9,7 @@ body {background-color: cyan;
 
 header {
   text-align: center;
-  background-color:indianred;
+  background-color: #fdfdfd;
   border-bottom: 1px solid #e5e2e0;
 }
 
