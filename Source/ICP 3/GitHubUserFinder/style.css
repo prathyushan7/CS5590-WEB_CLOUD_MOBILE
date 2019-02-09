@@ -39,12 +39,14 @@ input[type='text'] {
 }
 
 .information {
+  text-decoration-color: chocolate;
   text-align: center;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 
 .search {
+
   text-align: center;
   margin: 50px auto;
 }
@@ -65,5 +67,5 @@ h2 {
 }
 
 .profile:hover {
-  background-color: #b300b3;
+  background-color:black;
 }

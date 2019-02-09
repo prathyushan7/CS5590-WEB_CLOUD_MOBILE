@@ -1,7 +1,7 @@
 function getGithubInfo(user) {
     //1. Create an instance of XMLHttpRequest class and send a GET request using it. The function should finally return the object(it now contains the response!)
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function () {
+    var opeg = new XMLHttpRequest();
+    opeg.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             showUser(JSON.parse(this.responseText));
         }
@@ -9,8 +9,8 @@ function getGithubInfo(user) {
             noSuchUser(user)
         }
     };
-    xhttp.open("GET", "https://api.github.com/users/" + user, true);
-    xhttp.send();
+    opeg.open("GET", "https://api.github.com/users/" + user, true);
+    opeg.send();
 }
 
 function showUser(user) {
@@ -24,7 +24,7 @@ function showUser(user) {
 function noSuchUser(username) {
     //3. set the elements such that a suitable message is displayed
 
-    $("#h2txt").text("no such profile")
+    $("#h2txt").text("no such user found...!!!")
 }
 
 
