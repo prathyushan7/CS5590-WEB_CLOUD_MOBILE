@@ -31,7 +31,7 @@ $(document).ready(function(){
 //2.Write an event handler to handle the click the event on the add to favorite button so that the color gets added to the list of favorite colors,
 // the content of the input gets cleared and the focus gets back on the input
 
-//3.Write events handlers such that whenever any item in the favorite colors is clicked or hovered, the color gets displayed in the preview div
+// events handlers such that whenever any item in the favorite colors is clicked or hovered, the color gets displayed in the preview div
 
     $('#colors').on('mouseover', '.item', function(){
         previewColor=$('.preview').css('background-color');

@@ -1,7 +1,7 @@
 function getGithubInfo(user) {
     //1. Create an instance of XMLHttpRequest class and send a GET request using it. The function should finally return the object(it now contains the response!)
-    var opeg = new XMLHttpRequest();
-    opeg.onreadystatechange = function () {
+    var prog = new XMLHttpRequest();
+    prog.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             showUser(JSON.parse(this.responseText));
         }
@@ -9,20 +9,20 @@ function getGithubInfo(user) {
             noSuchUser(user)
         }
     };
-    opeg.open("GET", "https://api.github.com/users/" + user, true);
-    opeg.send();
+    prog.open("GET", "https://api.github.com/users/" + user, true);
+    prog.send();
 }
 
 function showUser(user) {
     $("#h2txt").text(user.login)
     $("#avatar").append('<img src="'+user.avatar_url+'" width="100px" height="100px"/>')
-    $("#information").append('<a href="'+user.html_url+'">Github Url</a></br><a href="'+user.repos_url+'">Repo Url</a>')
+    $("#information").append('<a href="'+user.html_url+'">Github Url</a></br><a href="'+user.repos_url+'">Repository Url</a>')
     //2. set the contents of the h2 and the two div elements in the div '#profile' with the user content
 
 }
 
 function noSuchUser(username) {
-    //3. set the elements such that a suitable message is displayed
+    //message is displayed
 
     $("#h2txt").text("no such user found...!!!")
 }
@@ -45,3 +45,4 @@ $(document).ready(function () {
         }
     })
 });
+``
