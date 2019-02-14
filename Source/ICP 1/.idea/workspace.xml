@@ -115,7 +115,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../prudhvireddym-CS5590-0003-490-0002-Web-Cloud-Mobile-Programming-master/prudhvireddym-CS5590-0003-490-0002-Web-Cloud-Mobile-Programming-master/Source/Web/Day 3/GitHubUserFinder" />
+    <property name="last_opened_file_path" value="C:/Documents and Settings" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -147,11 +147,12 @@
       <workItem from="1548561129142" duration="3087000" />
       <workItem from="1549122207541" duration="17083000" />
       <workItem from="1549655861954" duration="96000" />
+      <workItem from="1550092526561" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23034000" />
+    <option name="totallyTimeSpent" value="23044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="84" y="81" width="1386" height="731" extended-state="0" />
@@ -208,23 +209,9 @@
     <entry file="file://$PROJECT_DIR$/Tic Tac.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../prudhvireddym-CS5590-0003-490-0002-Web-Cloud-Mobile-Programming-master/prudhvireddym-CS5590-0003-490-0002-Web-Cloud-Mobile-Programming-master/Source/Web/Day 2/Bootstrap/icp2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../prudhvireddym-CS5590-0003-490-0002-Web-Cloud-Mobile-Programming-master/prudhvireddym-CS5590-0003-490-0002-Web-Cloud-Mobile-Programming-master/Source/Web/Day 2/Bootstrap/icp2.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../prudhvireddym-CS5590-0003-490-0002-Web-Cloud-Mobile-Programming-master/prudhvireddym-CS5590-0003-490-0002-Web-Cloud-Mobile-Programming-master/Source/Web/Day 2/Bootstrap/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../prudhvireddym-CS5590-0003-490-0002-Web-Cloud-Mobile-Programming-master/prudhvireddym-CS5590-0003-490-0002-Web-Cloud-Mobile-Programming-master/Source/Web/Day 2/Bootstrap/icp2.html" />
+    <entry file="file://$PROJECT_DIR$/../../../../prudhvireddym-CS5590-0003-490-0002-Web-Cloud-Mobile-Programming-master/prudhvireddym-CS5590-0003-490-0002-Web-Cloud-Mobile-Programming-master/Source/Web/Day 2/Bootstrap/icp2.css" />
+    <entry file="file://$PROJECT_DIR$/../../../../prudhvireddym-CS5590-0003-490-0002-Web-Cloud-Mobile-Programming-master/prudhvireddym-CS5590-0003-490-0002-Web-Cloud-Mobile-Programming-master/Source/Web/Day 2/Bootstrap/bootstrap.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
